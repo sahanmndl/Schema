@@ -2,7 +2,6 @@ import React from "react";
 import {FlatList, Platform, StyleSheet, View} from "react-native";
 import fractals from "../data/Fractals";
 import FractalItem from "../components/FractalItem";
-import {useRoute} from "@react-navigation/native";
 import Colors from "../constants/Colors";
 
 export default function ChooseFractal() {
@@ -28,6 +27,6 @@ const styles = StyleSheet.create({
 
     flatlist: {
         marginTop: 50,
-        width: (Platform.OS === "web") ? "35%" : "90%",
+        width: (Platform.OS === "web") ? "75%" : "90%",
     }
 })

@@ -140,6 +140,6 @@ const styles = StyleSheet.create({
 
     flatlist: {
         marginTop: 50,
-        width: (Platform.OS === "web") ? "35%" : "90%",
+        width: (Platform.OS === "web") ? "75%" : "90%",
     }
 })
