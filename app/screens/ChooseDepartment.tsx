@@ -1,5 +1,5 @@
 import React from "react";
-import {FlatList, Platform, StyleSheet, View} from "react-native";
+import {FlatList, StyleSheet, View} from "react-native";
 import departments from "../data/Departments";
 import DepartmentItem from "../components/DepartmentItem";
 import Colors from "../constants/Colors";

@@ -16,4 +16,7 @@ export default [{
 }, {
     id: "sat",
     name: "Saturday"
+}, {
+    id: "sun",
+    name: "Sunday"
 }]
