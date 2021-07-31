@@ -25,6 +25,13 @@ import EE_F12_Thursday from "../data/EE/F12/Thursday";
 import EE_F12_Friday from "../data/EE/F12/Friday";
 import EE_F12_Saturday from "../data/EE/F12/Saturday";
 import EE_F12_Sunday from "../data/EE/F12/Sunday";
+import EE_F34_Monday from "../data/EE/F34/Monday";
+import EE_F34_Tuesday from "../data/EE/F34/Tuesday";
+import EE_F34_Wednesday from "../data/EE/F34/Wednesday";
+import EE_F34_Thursday from "../data/EE/F34/Thursday";
+import EE_F34_Friday from "../data/EE/F34/Friday";
+import EE_F34_Saturday from "../data/EE/F34/Saturday";
+import EE_F34_Sunday from "../data/EE/F34/Sunday";
 import ME_F12_Monday from "../data/ME/F12/Monday";
 import ME_F12_Tuesday from "../data/ME/F12/Tuesday";
 import ME_F12_Wednesday from "../data/ME/F12/Wednesday";
@@ -104,6 +111,22 @@ export default function Schedule() {
                     return EE_F12_Saturday
                 } else if (dayID === "sun") {
                     return EE_F12_Sunday
+                }
+            } else if (fracID === "f34") {
+                if (dayID === "mon") {
+                    return EE_F34_Monday
+                } else if (dayID === "tue") {
+                    return EE_F34_Tuesday
+                } else if (dayID === "wed") {
+                    return EE_F34_Wednesday
+                } else if (dayID === "thu") {
+                    return EE_F34_Thursday
+                } else if (dayID === "fri") {
+                    return EE_F34_Friday
+                } else if (dayID === "sat") {
+                    return EE_F34_Saturday
+                } else if (dayID === "sun") {
+                    return EE_F34_Sunday
                 }
             } else {
                 return notice
